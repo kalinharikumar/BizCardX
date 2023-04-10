@@ -91,11 +91,8 @@ with tab1:
             pincode = st.text_input('Pincode:', value=pin)
             submit_button = st.form_submit_button(label="Save")
             #if save button is clicked the data will be uploaded to database
-
-        if "load_state" not in st.session_state:
-            st.session_state.load_state = False
-        if submit_button or st.session_state.load_state:
-            st.session_state.load_state = True
+            
+        if submit_button:
             #Inserting into db
             if tables == []:
               connection.execute(text("CREATE TABLE card_details (id Integer(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,company VARCHAR(20),name VARCHAR(20),designation VARCHAR(20),mobile VARCHAR(30),email VARCHAR(20),website VARCHAR(20),area VARCHAR(20),city VARCHAR(20),state VARCHAR(20),pincode VARCHAR(10),photo MEDIUMBLOB)"))
