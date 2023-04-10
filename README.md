@@ -7,7 +7,7 @@ easyocr, streamlit, cv2, regex, sqlalchemy, pymysql
 - Installing the required packages.
 - Using Streamlit creating made UI with header, subheader, tabs, writebox, forms etc.
 - Establishing DataBase connection through sqlalchemy-engine and engine.connecter.execute(text()) were used to write queries.
-- Made upload option where only img file are allowded to select.
+- Made upload button where only img file are allowded to select.
 - streamlite loads img file to object so it is made again as file for further cv2 reading.
 - Easy-ocr execution is made and raw text is extracted from image.
 - using regex deeply i've made out every pattern for identification.
