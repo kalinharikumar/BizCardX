@@ -17,3 +17,4 @@ easyocr, streamlit, cv2, regex, sqlalchemy, pymysql
 - additionally card image as object is uploaded to DB with the other details.
 ## Demo:
 Demo video is uploaded in my linkedin page with code explanation please check it out:
+https://www.linkedin.com/posts/kalin-harikumar-230349140_bizcardx-guvi-dataanalysis-activity-7051289011448942594-9exF?utm_source=share&utm_medium=member_desktop
