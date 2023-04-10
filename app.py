@@ -18,7 +18,6 @@ connection=engine.connect()
 tables=engine.table_names()
 
 with tab1:
-    # col1, col2=st.columns(2)
     st.subheader(':blue[_Upload Card_]')
 
     uploaded_file = st.file_uploader('Choose image', type=['png', 'jpg'], accept_multiple_files=False,
